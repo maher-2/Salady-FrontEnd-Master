@@ -1,26 +1,104 @@
+.container {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
 .header {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    height: 48;
-    flex-direction: row;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    background: #FFFFFF;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  height: 48;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: #ffffff;
 }
 
 .headerText {
-    font-family: NotoSansCJKkr;
-    font-size: 15px;
-    line-height: 15px;
-    margin-left: 24px;
-    /* identical to box height, or 100% */
-    color: #5C5A5A;
+  font-family: NotoSansCJKkr;
+  font-size: 15px;
+  line-height: 15px;
+  margin-left: 24px;
+  /* identical to box height, or 100% */
+  color: #5c5a5a;
+}
+
+.title {
+  position: absolute;
+  top: 10%;
+  bottom: 0%;
+  height: 48;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: #ffffff;
+}
+.titleText {
+  position: absolute;
+  height: 18px;
+  left: 5.56%;
+  right: 74.72%;
+  top: calc(50% - 18px / 2 - 32px);
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+  color: #333131;
+}
+.text-left {
+  position: absolute;
+  height: 22px;
+  left: 5.56%;
+  right: 76.39%;
+  top: calc(50% - 22px / 2 + 4px);
+
+  font-family: NotoSansCJKkr;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height, or 183% */
+  letter-spacing: -0.184615px;
+
+  color: rgba(92, 90, 90, 0.8);
+}
+.text-right {
+  position: absolute;
+  height: 22px;
+  left: 26.39%;
+  right: 5.56%;
+  top: calc(50% - 22px / 2 + 4px);
+
+  font-family: NotoSansCJKkr;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height, or 183% */
+  letter-spacing: -0.369231px;
+
+  color: rgba(92, 90, 90, 0.8);
+}
+.edit {
+  /* icon/edit */
+
+  position: absolute;
+  left: 90.56%;
+  right: 5.56%;
+  top: 21.74%;
+  bottom: 68.12%;
+  background: #979595;
 }

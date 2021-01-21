@@ -124,3 +124,59 @@
   padding-right: 5px;
   padding-left: 5px;
 }
+.footer {
+  position: relative;
+  overflow: hidden;
+  /* margin: 10px auto; */
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 56px;
+  left: 0px;
+  background: #286140;
+}
+.footerText {
+  height: 15px;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 15px;
+  /* identical to box height, or 100% */
+  color: #ffffff;
+}
+.fcol {
+  height: 14px;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+  text-align: right;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+  padding-left: 50%;
+}
+.footerPrice {
+  height: 14px;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+  text-align: right;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+}
+.fsign {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #ffffff;
+}

@@ -4,6 +4,8 @@ import { ReactComponent as Back } from '../../res/images/back.svg'
 import { ReactComponent as Edit } from '../../res/images/edit.svg'
 import { ReactComponent as Minus } from '../../res/images/minus.svg'
 import { ReactComponent as Pluse } from '../../res/images/pluse.svg'
+import { ReactComponent as NextPage } from '../../res/images/nextPage.svg'
+import { ReactComponent as VLine } from '../../res/images/vLine.svg'
 
 function OrderList () {
   return (
@@ -90,7 +92,11 @@ function OrderList () {
           <div className='price'> 999,000원 </div>
         </div>
       </div>
-
+      <div className='footer'>
+        <div className='footerText'>결제하기</div>
+        <div className='fcol'>  3개 <VLine className='sign' /> </div>
+        <div className='footerPrice'> 1,008,000원 <NextPage className='fsign' /> </div>
+      </div>
     </div>
 
   )

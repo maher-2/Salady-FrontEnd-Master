@@ -15,7 +15,7 @@ function OrderList () {
             장바구니
           </div>
         </div>
-        <div className='headerText'>
+        <div className='price'>
           비우기
         </div>
       </div>
@@ -36,7 +36,7 @@ function OrderList () {
       </div>
       <div className='table'>
         <div className='trow'>
-          <div className='theader'>시저치킨 샐러디</div>
+          <div className='theader-sub'>시저치킨 샐러디</div>
           <div className='tcol'> </div>
           <div className='tcol'>삭제</div>
         </div>
@@ -57,14 +57,14 @@ function OrderList () {
           <div className='tcol'>치킨 (+ 1,700 원), 스윗 포테이토 (+ 1,300 원)</div>
         </div>
         <div className='trow'>
-          <div className='theader'>수량</div>
-          <div className='tcol' style={{ borderColor: '#E9E7E7', borderRadius: 10, borderWidth: 1, borderStyle: 'solid' }}> <Minus /> 1개 <Pluse /> </div>
-          <div className='theader'> 9,000원 </div>
+          <div className='priceText'>수량</div>
+          <div className='tcol' style={{ borderColor: '#E9E7E7', borderRadius: 10, borderWidth: 1, borderStyle: 'solid' }}> <Minus className='sign' /> 1개 <Pluse className='sign' /> </div>
+          <div className='price'> 9,000원 </div>
         </div>
       </div>
       <div className='table'>
         <div className='trow'>
-          <div className='theader'>탄단지 샐러디</div>
+          <div className='theader-sub'>탄단지 샐러디</div>
           <div className='tcol'> </div>
           <div className='tcol'>삭제</div>
         </div>
@@ -85,9 +85,9 @@ function OrderList () {
           <div className='tcol'>치킨 (+ 1,700 원), 스윗 포테이토 (+ 1,300 원)</div>
         </div>
         <div className='trow'>
-          <div className='theader'>수량</div>
-          <div className='tcol'> <Minus /> 99개 <Pluse /> </div>
-          <div className='theader'> 999,000원 </div>
+          <div className='priceText'>수량</div>
+          <div className='tcol'style={{ borderColor: '#E9E7E7', borderRadius: 10, borderWidth: 1, borderStyle: 'solid' }}> <Minus className='sign' /> 99개 <Pluse className='sign' /> </div>
+          <div className='price'> 999,000원 </div>
         </div>
       </div>
 
